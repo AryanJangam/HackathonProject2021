@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* padding-bottom: 5px; */
+  }
+  .hero {
+    height: 100%;
+    width: 100%;
+    background-image: 
+    url(5.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background-color: grey;
+  }

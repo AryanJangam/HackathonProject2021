@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acc4</title>
+    <link rel="stylesheet" href="acc4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+ <div class="hero"> <h1>  Reviews :</h1>
+    <hr>
+
+<h2> "Excellent employer"</h2>
+<h3> 5.0 <br>
+★★★★★
+Current Employee - Senior Technical Support Analyst in Dublin, Dublin<br>
+Recommends<br>
+Positive Outlook<br>
+Approves of CEO<br>
+I have been working at Accenture full-time for more than 3 years<br>
+Pros<br>
+I've only had good experiences with Accenture so far at 4 years.<br>
+Cons<br>
+Requires a lot of time management administration.</h3><br>
+<hr>
+
+
+<h2>"Work life balance"</h2>
+<h3>5.0<br>
+★★★★★
+Former Employee - Project Control Service Analyst in Bangalore<br>
+Recommends<br>
+Positive Outlook<br>
+Approves of CEO<br>
+I worked at Accenture full-time for more than 3 years<br>
+Pros<br>
+Enables to learn and adapt to the emerging trends<br>
+Cons<br>
+visibility is low as the company is huge</h3> <br>
+<hr>
+
+
+<h2>"Great place to work"</h2>
+<h3>5.0<br>
+★★★★★<br>
+Current Employee - Applications Development Analyst in Bangalore<br>
+Recommends<br>
+Positive Outlook<br>
+Approves of CEO<br>
+I have been working at Accenture full-time for more than a year<br>
+Pros<br>
+The work in Accenture is really good. The support received from colleagues is amazing. You will learn a lot from senior colleagues. Good work life balance. They have also begun revising salaries to meet industry standards. They focus on learning new skills and provide a variety of trainings to broaden knowledge.
+Cons<br>
+Sometimes you get mapped to projects even if the skill set doesn't match your skill set - mostly for freshers. But you'll learn none the less.</h3>
+<br>
+<hr>
+<h2>"Good company to start career with"</h2>
+<h3>4.0
+★★★★★
+Former Employee - Applications Development Analyst in Pune<br>
+Recommends<br>
+Positive Outlook<br>
+No Opinion of CEO<br>
+I worked at Accenture full-time for more than a year<br>
+Pros<br>
+Good projects with top companies<br>
+Cons</h3><br>
+<hr>
+<h2>"Amazing place to work"</h2>
+<h3>4.0<br>
+★★★★★
+Former Employee - Applications Development Senior Analyst in Bangalore<br>
+I worked at Accenture full-time<br>
+Pros<br>
+Career growth, good work culture<br>
+Cons<br>
+No major cons as such</h3><br>
+<hr>
+<br> 
+<h2> Rate this job!</h2>
+<center>
+<div class="container">
+    <div class="post">
+      <div class="text">
+Thanks for rating us!</div>
+<div class="edit">
+EDIT</div>
+</div>
+<div class="star-widget">
+      <input type="radio" name="rate" id="rate-5">
+      <label for="rate-5" class="fas fa-star"></label>
+      <input type="radio" name="rate" id="rate-4">
+      <label for="rate-4" class="fas fa-star"></label>
+      <input type="radio" name="rate" id="rate-3">
+      <label for="rate-3" class="fas fa-star"></label>
+      <input type="radio" name="rate" id="rate-2">
+      <label for="rate-2" class="fas fa-star"></label>
+      <input type="radio" name="rate" id="rate-1">
+      <label for="rate-1" class="fas fa-star"></label>
+      <form action="#">
+        <header></header>
+        <div class="textarea">
+          <textare cols="30" placeholder="Describe your experience.."></textare> 
+<!-- Due to more textarea tags I got a problem So I've changed the textarea tag to textare. Please correct it. -->
+        
+        <br />
+<div class="btn">
+<button type="submit">Post</button>
+        </div>
+<script>
+    const btn = document.querySelector("button");
+    const post = document.querySelector(".post");
+    const widget = document.querySelector(".star-widget");
+    const editBtn = document.querySelector(".edit");
+    btn.onclick = ()=>{
+      widget.style.display = "none";
+      post.style.display = "block";
+      editBtn.onclick = ()=>{
+        widget.style.display = "block";
+        post.style.display = "none";
+      }
+      return false;
+    }
+  </script>
+  </div></center>
+<center>
+    <a href="acc3.html" class="previous">&laquo; Previous</a>
+    <a href="index.html" class="home">Home</a>
+    <a href="#" class="next">Next &raquo;</a>
+    </center>
+
+
+
+</body>
+</html>

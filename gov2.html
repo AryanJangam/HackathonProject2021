@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gov2</title>
+    <link rel="stylesheet" href="gov2.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body> <div class="hero">
+  <h1>  Reviews :</h1> 
+
+
+ <h1> "ONGC MEDICAL OFFICER(Contract)" </h1>
+ <h2>3.0 <br>
+★★★★★<br>
+Former Contractor - Medical Officer in Mumbai<br>
+Neutral Outlook<br>
+I worked at Oil and Natural Gas for more than a year<br>
+Pros<br>
+Salary hiked to 60000Rs/ month, 14 days on-off pattern, lots of time to prepare for PG exams so good for freshers, medical claim upto 5lakhs for self & family plus 1000 Rs/month for OPD expenses<br>
+Cons<br>
+No career growth, offshore duty , strictly reliever based, cannot leave until reliever is onboard, this may cause prolonging the duty period to more than 14 days<br>
+</h2>
+
+
+<h1> "Energy for tomorrow"</h1>
+<h2>
+5.0<br>
+★★★★★<br>
+Current Employee - General Counsel in New Brunswick, NJ<br>
+Recommends<br>
+Neutral Outlook<br>
+Approves of CEO<br>
+I have been working at Oil and Natural Gas full-time<br>
+Pros<br>
+Sustainability focused to secure the future<br>
+Cons<br>
+The unaware of next steps to meet energy challenges</h2><br>
+<h2> Rate this job!</h2>
+<center>
+    <div class="container">
+        <div class="post">
+          <div class="text">
+    Thanks for rating us!</div>
+    <div class="edit">
+    EDIT</div>
+    </div>
+    <div class="star-widget">
+          <input type="radio" name="rate" id="rate-5">
+          <label for="rate-5" class="fas fa-star"></label>
+          <input type="radio" name="rate" id="rate-4">
+          <label for="rate-4" class="fas fa-star"></label>
+          <input type="radio" name="rate" id="rate-3">
+          <label for="rate-3" class="fas fa-star"></label>
+          <input type="radio" name="rate" id="rate-2">
+          <label for="rate-2" class="fas fa-star"></label>
+          <input type="radio" name="rate" id="rate-1">
+          <label for="rate-1" class="fas fa-star"></label>
+          <form action="#">
+            <header></header>
+            <div class="textarea">
+              <textare cols="30" placeholder="Describe your experience.."></textare> 
+    <!-- Due to more textarea tags I got a problem So I've changed the textarea tag to textare. Please correct it. -->
+            
+            <br />
+    <div class="btn">
+    <button type="submit">Post</button>
+            </div>
+    <script>
+        const btn = document.querySelector("button");
+        const post = document.querySelector(".post");
+        const widget = document.querySelector(".star-widget");
+        const editBtn = document.querySelector(".edit");
+        btn.onclick = ()=>{
+          widget.style.display = "none";
+          post.style.display = "block";
+          editBtn.onclick = ()=>{
+            widget.style.display = "block";
+            post.style.display = "none";
+          }
+          return false;
+        }
+      </script>
+      </div></center>
+      
+<center>
+    <a href="gov.html" class="previous">&laquo; Previous</a>
+    <a href="#" class="next">Next &raquo;</a>
+    </center>
+ 
+
+</body>
+</html>
